@@ -1,0 +1,16 @@
+{
+    "appId": "com.magneticash",
+    "appName": "Magneticash",
+    "webDir": "www",
+    "bundleWebRuntime": false,
+    "plugins": {
+        "GoogleAuth": {
+            "scopes": [
+                "email",
+                "profile"
+            ],
+            "serverClientId": "991627798943-kni5m02tp7f8if01peojcicb28o6qufu.apps.googleusercontent.com",
+            "forceCodeForRefreshToken": true
+        }
+    }
+}

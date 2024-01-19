@@ -1,6 +1,12 @@
 #container {
   text-align: center;
 
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   position: absolute;
   left: 0;
   right: 0;
@@ -24,4 +30,17 @@
 
 #container a {
   text-decoration: none;
+}
+
+.signin-btn {
+  width: 150px;
+  padding: 10px;
+  background: rgb(66,133,244);
+  background: linear-gradient(90deg, rgba(66,133,244,1) 9%, rgba(219,68,55,1) 35%, rgba(244,180,0,1) 67%, rgba(15,157,88,1) 90%);
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgb(29, 29, 29);
+
+  color: azure;
 }

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">google-sign-in</string>
+    <string name="title_activity_main">google-sign-in</string>
+    <string name="package_name">com.magneticash</string>
+    <string name="custom_url_scheme">com.magneticash</string>
+    <string name="server_client_id">991627798943-7o6u3n4n1qqdpvub7ocrd1f3nqreknok.apps.googleusercontent.com</string>
+</resources>
