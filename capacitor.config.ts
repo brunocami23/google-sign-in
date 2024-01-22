@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.magneticash',
+  appId: 'com.googleauth',
   appName: 'google-sign-in',
   webDir: 'www',
   server: {

@@ -16,5 +16,11 @@
   <div id="container">
     <strong>Ready to create an app?</strong>
     <button class="signin-btn" (click)="signIn()">Sign in with Google</button>
+    <div *ngIf="user" style="display: flex; flex-direction: column; justify-content: center;  align-items: center;width: 100%; margin-top: 10px;">
+      <img [src]="user.imageUrl" style="border-radius: 20px; width: 40px; height: 40px;" alt="">
+      <p style="font-size: 12px; font-weight: 500;">{{user.email}}</p>
+    </div>
   </div>
+
+
 </ion-content>

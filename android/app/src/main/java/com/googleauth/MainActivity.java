@@ -1,14 +1,13 @@
-package com.magneticash;
+package com.googleauth;
 
 import android.os.Bundle;
-import com.codetrixstudio.capacitor.GoogleAuth.GoogleAuth;
 import com.getcapacitor.BridgeActivity;
-import com.google.firebase.FirebaseApp;
+import com.codetrixstudio.capacitor.GoogleAuth.GoogleAuth;
 
 public class MainActivity extends BridgeActivity {
+    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FirebaseApp.initializeApp(this);
         registerPlugin(GoogleAuth.class);
     }
 }

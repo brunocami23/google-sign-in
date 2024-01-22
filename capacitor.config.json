@@ -1,5 +1,5 @@
 {
-    "appId": "com.magneticash",
+    "appId": "com.googleauth",
     "appName": "Magneticash",
     "webDir": "www",
     "bundleWebRuntime": false,
@@ -9,7 +9,7 @@
                 "email",
                 "profile"
             ],
-            "serverClientId": "991627798943-kni5m02tp7f8if01peojcicb28o6qufu.apps.googleusercontent.com",
+            "serverClientId": "701515636016-hqvadln0fsuhdea7frchn19s73vvr1mg.apps.googleusercontent.com",
             "forceCodeForRefreshToken": true
         }
     }
